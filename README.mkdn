@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/LightingOS-AOSP/manifest/blob/17/assets/Banner.png" alt="LightningOS Banner" width="100%">
+<img src="https://github.com/LightingOS-AOSP/manifest/assets/Banner.png" alt="LightningOS Banner" width="100%">
 
 <h1><b>Lightning OS</b></h1>
 <h3><i>When Thunder Meets Lightning</i></h3>
@@ -129,7 +129,7 @@ We extend our gratitude to these amazing projects that make LightningOS possible
 | [![LineageOS](https://avatars.githubusercontent.com/u/24304779?s=200\&v=4)](https://github.com/LineageOS)             | [![Rising Revived OSS](https://avatars.githubusercontent.com/u/197353021?s=200&v=4)](https://github.com/RisingOS-Revived) | [![YAAP](https://avatars.githubusercontent.com/u/70501337?s=200\&v=4)](https://github.com/Yaap)                  | [![crDroid](https://avatars.githubusercontent.com/u/9610671?s=200\&v=4)](https://github.com/crdroidandroid) | [![Evolution X](https://avatars.githubusercontent.com/u/165590896?s=200\&v=4)](https://github.com/Evolution-X)      | [![The Parasite Project](https://avatars.githubusercontent.com/u/106430773?s=200\&v=4)](https://github.com/TheParasiteProject) |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | [![PixelExperience](https://avatars.githubusercontent.com/u/38539471?s=200\&v=4)](https://github.com/PixelExperience) | [![Pixel OS](https://avatars.githubusercontent.com/u/82160282?s=200\&v=4)](https://github.com/pixelos-aosp)               | [![Derpfest AOSP](https://avatars.githubusercontent.com/u/71037289?s=200&v=4)](https://github.com/DerpFest-AOSP) | [![SuperiorOS](https://avatars.githubusercontent.com/u/43355064?s=200\&v=4)](https://github.com/superioros) | [![Project Awaken](https://avatars.githubusercontent.com/u/68725628?s=200\&v=4)](https://github.com/Project-Awaken) | [![AxionOS](https://avatars.githubusercontent.com/u/197447202?s=200&v=4)](https://github.com/AxionAOSP)                        |
-| [![MistOS](https://avatars.githubusercontent.com/u/140271839?s=200&v=4)] (https://github.com/Project-Mist-OS) |
+| [![MistOS](https://avatars.githubusercontent.com/u/140271839?s=200&v=4)](https://github.com/Project-Mist-OS) |
 
 <p align="center">
 <br>
@@ -152,6 +152,6 @@ We extend our gratitude to these amazing projects that make LightningOS possible
   
   ---
   
-  **Made with** U+26A1 **by the LightningOS Team**
+  **Made with** ⚡️ **by the LightningOS Team**
   
 </div>
