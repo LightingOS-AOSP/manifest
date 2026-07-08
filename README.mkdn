@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/LightingOS-AOSP/manifest/assets/Banner.png" alt="LightningOS Banner" width="100%">
+<img src="https://github.com/LightingOS-AOSP/manifest/blob/1.0/assets/Banner.png" alt="LightningOS Banner" width="100%">
 
 <h1><b>Lightning OS</b></h1>
 <h3><i>When Thunder Meets Lightning</i></h3>
