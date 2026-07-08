@@ -5,13 +5,13 @@
            fetch="https://github.com/LightingOS-AOSP"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/17" />
+           revision="refs/heads/1.0" />
 
   <remote  name="lightning-device"
            fetch="https://github.com/LightningOS-Devices"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/17" />
+           revision="refs/heads/1.0" />
   
   <remote  name="gitlab"
            sync-c="true"
