@@ -13,12 +13,12 @@
            sync-j="4"
            revision="refs/heads/cnb" />
 
-  <remote  name="mist-codeberg"
-           fetch="https://codeberg.org/Zabuka"
+  <remote  name="lightning-codeberg"
+           fetch="https://codeberg.org/MODEDGES"
            sync-c="true"
            sync-j="4"
            depth="1"
-           revision="refs/heads/16.3" />
+           revision="refs/heads/1.0" />
 
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,qssi" remote="evo" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" remote="evo" revision="cnb-legacy-um" />
@@ -27,5 +27,5 @@
   <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="evo" revision="cnb-sm8550" />
   <project path="device/qcom/sepolicy_vndr/sm8750" name="device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" remote="evo" revision="cnb-sm8750" />
 
-  <project path="vendor/gms" name="vendor_gms" remote="mist-codeberg" />
+  <project path="vendor/gms" name="vendor_gms" remote="lightning-codeberg" />
 </manifest>
