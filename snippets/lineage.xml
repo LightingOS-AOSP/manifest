@@ -217,7 +217,6 @@
   <project path="system/chre" name="system_chre" groups="pdk" remote="evo" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="evo" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" groups="pdk" remote="evo" />
-  <project path="system/memory/libion" name="system_memory_libion" groups="pdk" remote="evo" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="evo" />
   <project path="system/security" name="system_security" groups="pdk" remote="evo" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="evo" />

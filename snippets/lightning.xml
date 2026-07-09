@@ -85,6 +85,7 @@
   <project path="system/media" name="system_media" groups="pdk" remote="lightning" />
   <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" groups="pdk" remote="lightning" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="lightning" />
+    <project path="system/memory/libion" name="system_memory_libion" groups="pdk" remote="lightning" />  
 
   <!-- Vendor -->
   <project path="vendor/extras" name="vendor_extras" remote="lightning" />
