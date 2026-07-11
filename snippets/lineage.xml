@@ -190,7 +190,7 @@
   <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo"/>
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="evo" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="evo" />
-  <project path="external/json-c" name="external_json-c" groups="qcom,qssi" remote="evo" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />>
   <project path="external/libjxl" name="external_libjxl" groups="pdk" remote="evo"/>
   <project path="external/mksh" name="external_mksh" remote="evo" />
   <project path="external/piex" name="external_piex" groups="pdk" remote="evo" />
