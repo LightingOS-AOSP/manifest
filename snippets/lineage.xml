@@ -221,7 +221,7 @@
   <project path="system/security" name="system_security" groups="pdk" remote="evo" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="evo" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="evo" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="evo" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/audio" name="vendor_qcom_opensource_audio" groups="qcom,qssi" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="evo" />
