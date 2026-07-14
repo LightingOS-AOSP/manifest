@@ -185,6 +185,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pakala-vendor" revision="lineage-23.2" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" revision="lineage-23.2" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/libvmmem" name="LineageOS/android_vendor_qcom_opensource_libvmmem" groups="qcom,k2c-le" />
   <project path="external/avb" name="external_avb" remote="evo" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="evo" />
   <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo"/>
