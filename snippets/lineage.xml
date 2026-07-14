@@ -200,7 +200,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="evo" />
   <project path="external/v4l2_codec2" name="external_v4l2_codec2" groups="pdk" remote="evo" />
   <project path="external/zstd" name="external_zstd" remote="evo" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="evo" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="lightning" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="evo" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="evo" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="evo" />
