@@ -131,6 +131,7 @@
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" remote="aosp" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
@@ -197,6 +198,7 @@
   <project path="external/google-smali" name="platform/external/google-smali" groups="pdk" remote="aosp" />
   <project path="external/googleapis" name="platform/external/googleapis" groups="pdk,tradefed" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/gsc-utils" name="platform/external/gsc-utils" groups="pdk" remote="aosp" />
@@ -365,6 +367,7 @@
   <project path="external/minidns" name="platform/external/minidns" groups="pdk" remote="aosp" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <project path="external/ml_dtypes" name="platform/external/ml_dtypes" groups="pdk" remote="aosp" />
   <project path="external/mobile-data-download" name="platform/external/mobile-data-download" groups="pdk" remote="aosp" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" remote="aosp" />
@@ -544,6 +547,7 @@
   <project path="external/tink" name="platform/external/tink" groups="pdk" remote="aosp" />
   <project path="external/tink-java" name="platform/external/tink-java" groups="pdk" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyalsa_new" name="platform/external/tinyalsa_new" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" groups="pdk-arsp-ag-sot,pdk-arsp-common" remote="aosp" />
@@ -588,6 +592,7 @@
   <project path="external/yapf" name="platform/external/yapf" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
+  <project path="external/zstd" name="LineageOS/android_external_zstd" />
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
@@ -628,6 +633,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" remote="aosp" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" remote="aosp" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" />
   <project path="hardware/nxp/nxp_mcu_loader" name="platform/hardware/nxp/nxp_mcu_loader" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/uwb" name="platform/hardware/nxp/uwb" groups="pdk-arsp-ag-sot,pdk-arsp-common" remote="aosp" />
@@ -635,6 +641,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" />
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/sdv/interfaces" name="platform/hardware/sdv/interfaces" groups="swcar,pdk" remote="aosp" />
+  <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk" remote="aosp" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" remote="aosp" />
@@ -663,7 +670,6 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
-  <project path="libcore" name="platform/libcore" groups="pdk,sysui-studio" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/AvatarPicker" name="platform/packages/apps/AvatarPicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -708,7 +714,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Launcher3" name="LineageOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" revision="lineage-23.2" />
@@ -835,7 +840,7 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" revision="refs/changes/15/4127115/1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
@@ -1039,5 +1044,4 @@
 
   <include name="snippets/lightning.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/evox.xml" />
 </manifest>

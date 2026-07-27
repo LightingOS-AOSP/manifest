@@ -22,6 +22,19 @@
            sync-c="true"
            sync-j="4"
            fetch="https://github.com" />
+           
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/cnb" />
+
+  <remote  name="lightning-codeberg"
+           fetch="https://codeberg.org/MODEDGES"
+           sync-c="true"
+           sync-j="4"
+           depth="1"
+           revision="refs/heads/1.0" />
 
 
    <!-- Art -->
@@ -68,6 +81,8 @@
   <!-- Packages -->
   <project path="packages/apps/BtHelper" name="TheParasiteProject/packages_apps_BtHelper" revision="main" remote="github-non-los" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="lightning" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="lightning" />
+  <project path="packages/apps/Thunderbolt" name="packages_apps_Thunderbolt" remote="lightning" />
   <project path="packages/apps/Settings" name="packages_apps_Settings_new" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="lightning" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lightning" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="lightning" />
@@ -91,4 +106,5 @@
   <project path="vendor/extras" name="vendor_extras" remote="lightning" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="lightning" />
   <project path="vendor/lineage" name="vendor_lightning" remote="lightning" />
+  <project path="vendor/gms" name="vendor_gms" remote="lightning-codeberg" />
 </manifest>
