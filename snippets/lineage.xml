@@ -180,7 +180,7 @@
   <project path="external/v4l2_codec2" name="external_v4l2_codec2" groups="pdk" remote="evo" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="evo" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="evo" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="evo" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="evo" />
   <project path="libcore" name="libcore" groups="pdk,sysui-studio" remote="evo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="evo" />
