@@ -175,7 +175,7 @@
   <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo"/>
   <project path="external/libjxl" name="external_libjxl" groups="pdk" remote="evo"/>
   <project path="external/piex" name="external_piex" groups="pdk" remote="evo" />
-  <project path="external/setupcompat" name="external_setupcompat" remote="evo" />
+  <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="evo" />
   <project path="external/v4l2_codec2" name="external_v4l2_codec2" groups="pdk" remote="evo" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="evo" />
