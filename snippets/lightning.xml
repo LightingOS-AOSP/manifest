@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="lightning"
-           fetch="https://github.com/LightingOS-AOSP"
+           fetch="https://github.com/LightningOS-AOSP"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/1.0" />
