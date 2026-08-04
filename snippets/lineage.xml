@@ -182,8 +182,7 @@
   <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="evo" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="evo" />
-  <project path="libcore" name="libcore" groups="pdk,sysui-studio" remote="evo" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="evo" />
+  <project path="libcore" name="libcore" groups="pdk,sysui-studio" remote="evo" /> 
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="evo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="evo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="evo" />
