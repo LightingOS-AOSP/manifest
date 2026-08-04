@@ -35,7 +35,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 strike <devicecodename> user | userdebug
 
 # Start building
-strike b
+lightning b
 ```
 
 ---
@@ -58,38 +58,6 @@ strike b
 
 > 💡 **Note**: Default configuration includes Full GMS package
 
-### **UI Customization**
-
-| Flag | Description | Default |
-|------|-------------|---------|
-| `TARGET_ENABLE_BLUR :=` | Enable system-wide blur effects | `false` |
-
-### **Feature Flags**
-
-| Flag | Description | Default |
-|------|-------------|---------|
-| `TARGET_SUPPORTS_QUICK_TAP :=` | Enable Quick Tap gestures | `false` |
-| `BYPASS_CHARGE_SUPPORTED :=` | Support bypass charging | `false` |
-
----
-
-## **About Phone**
-```
-ro.lightning.display=1080 x 2400, 120 hz
-ro.lightning.battery=6000mah
-ro.lightning.soc=Snapdragon® 732G
-ro.lightning.camera=64MP + 13MP + 2MP
-ro.lightning.front=20MP
-ro.lightning.platform=SM7150-AC
-ro.lightning.screen=6.67' IPS LCD
-ro.lightning.device.name=Poco X3 
-```
-## ** Quick Switch**
-```
-TARGET_DEFAULT_PIXEL_LAUNCHER := true [if you want to ship default pixel launcher.]
-Only with GMS build.
-```
-
 ## 📝 **Build Example**
 
 ```makefile
@@ -101,13 +69,6 @@ LIGHTNINGOS_MAINTAINER := "John Doe"
 # Enable GMS with mini package
 WITH_GMS := true
 TARGET_USES_MINI_GAPPS := true
-
-# Enable UI enhancements
-TARGET_ENABLE_BLUR := true
-
-# Enable features
-TARGET_SUPPORTS_QUICK_TAP := true
-BYPASS_CHARGE_SUPPORTED := true
 ```
 
 ---
