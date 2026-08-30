@@ -77,7 +77,7 @@
   <!-- LineageOS additions -->
   <project path="lineage-sdk" name="lineage-sdk" remote="lightning" />
 
-  <project path="lightning-mantainers" name="lightning-mantainers" remote="lightning-device" />
+  <project path="lightning-maintainers" name="lightning-maintainers" remote="lightning-device" />
   
   <!-- Packages -->
   <project path="packages/apps/BtHelper" name="TheParasiteProject/packages_apps_BtHelper" revision="main" remote="github-non-los" />
