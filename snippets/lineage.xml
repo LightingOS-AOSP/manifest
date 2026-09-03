@@ -172,28 +172,28 @@
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kaanapali-vendor" />
   <project path="external/avb" name="LineageOS/android_external_avb" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="evo" />
-  <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo"/>
-  <project path="external/libjxl" name="external_libjxl" groups="pdk" remote="evo"/>
+  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" />
+  <project path="external/libjxl" name="LineageOS/android_external_libjxl" groups="pdk" />
   <project path="external/piex" name="external_piex" groups="pdk" remote="evo" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="evo" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/v4l2_codec2" name="external_v4l2_codec2" groups="pdk" remote="lightning" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="evo" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="evo" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="evo" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" />
   <project path="libcore" name="libcore" groups="pdk,sysui-studio" remote="evo" /> 
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="evo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="evo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="evo" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="evo" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="evo" />
+  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="evo" /> 
-  <project path="system/chre" name="system_chre" groups="pdk" remote="evo" />
-  <project path="system/extras" name="system_extras" groups="pdk" remote="evo" />
+  <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" groups="pdk" remote="evo" />
-  <project path="system/netd" name="system_netd" groups="pdk" remote="evo" />
-  <project path="system/security" name="system_security" groups="pdk" remote="evo" />
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="evo" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="evo" />
 
